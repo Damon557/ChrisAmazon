@@ -1,10 +1,26 @@
 body{
-    color: indigo;
+    color: rgb(237, 232, 240);
     margin: 0;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background: rgb(10, 173, 228);
+    background: rgb(0, 12, 15);
+    flex-direction: column;
+}
+
+ .center{
+    position:relative;
+    height: 100px;
+    /* top:305px;  */
+    width: 100px;
+ } 
+
+.bottom{
+   margin-top: 100px;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 10%;
 }
